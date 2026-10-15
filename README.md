@@ -88,3 +88,7 @@ Taskflow Student допомагає студенту коледжу контро
 [Переглянути функцональні та нефункціональні вимоги](docs/requirements.md)
 
 
+## User stoires
+- [User stories та критерії приймання](docs/user-stories.md)
+
+
