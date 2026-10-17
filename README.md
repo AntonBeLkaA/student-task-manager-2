@@ -79,16 +79,9 @@ Taskflow Student допомагає студенту коледжу контро
 
 
 ## Документація 
-
-Детальний опис програмного продукту розташований у файлі
-[docs/product-description.md](docs/product-description.md)
-
-
-## Вимоги
-[Переглянути функцональні та нефункціональні вимоги](docs/requirements.md)
-
-
-## User stoires
+- [Детальний опис програмного продуктуd](docs/product-description.md)
+- [Переглянути функцональні та нефункціональні вимоги](docs/requirements.md)
 - [User stories та критерії приймання](docs/user-stories.md)
+- [Use-case модель та оснвоний сценарій](docs/use-case.md)
 
 
