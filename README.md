@@ -83,5 +83,5 @@ Taskflow Student допомагає студенту коледжу контро
 - [Переглянути функцональні та нефункціональні вимоги](docs/requirements.md)
 - [User stories та критерії приймання](docs/user-stories.md)
 - [Use-case модель та оснвоний сценарій](docs/use-case.md)
-
+- [Activity-діаграма ключового процесу](docs/activity-diagram.md)
 
