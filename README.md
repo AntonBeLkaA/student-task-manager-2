@@ -85,4 +85,6 @@ Taskflow Student допомагає студенту коледжу контро
 - [Use-case модель та оснвоний сценарій](docs/use-case.md)
 - [Activity-діаграма ключового процесу](docs/activity-diagram.md)
 - [Спрощена Class-діаграма ](docs/class-diagram.md)
+- [Ескізи основних екранів](docs/screen-sketches.md)
+- [Опис клікабельного прототипу](docs/prototype.md)
 
