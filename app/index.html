@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менеджер завдань — MVP</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Менеджер завдань</h1>
+      <p>Перша робоча версія продукту — MVP.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="form-heading">
+      <h2 id="form-heading">Нове завдання</h2>
+
+      <form id="task-form">
+        <label for="task-title">Назва завдання</label>
+        <input
+          id="task-title"
+          name="title"
+          type="text"
+          maxlength="120"
+          placeholder="Наприклад: підготувати практичну"
+          required
+        >
+
+        <p id="error-message" class="error" role="alert"></p>
+
+        <div class="actions">
+          <button id="submit-button" type="submit">Додати</button>
+          <button id="cancel-button" type="button" hidden>
+            Скасувати
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="list-heading">
+      <h2 id="list-heading">Мої завдання</h2>
+
+      <label for="status-filter">Показувати</label>
+      <select id="status-filter">
+        <option value="all">Усі</option>
+        <option value="active">Активні</option>
+        <option value="completed">Виконані</option>
+      </select>
+
+      <p id="task-count" aria-live="polite"></p>
+      <p id="empty-message">Завдань поки немає.</p>
+      <ul id="task-list"></ul>
+    </section>
+
+    <p class="note">
+      Навчальна версія: після перезавантаження сторінки дані зникають.
+    </p>
+  </main>
+</body>
+</html>

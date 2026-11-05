@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.panel {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #9ca3af;
+  border-radius: 6px;
+  background: #eef2ff;
+  color: #1f2937;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dbeafe;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#task-list {
+  padding: 0;
+  list-style: none;
+}
+
+.task {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.task > div:first-child {
+  min-width: 0;
+  flex: 1 1 180px;
+  overflow-wrap: anywhere;
+}
+
+.task p {
+  margin: 4px 0 0;
+  color: #4b5563;
+}
+
+.completed .task-title {
+  color: #6b7280;
+  text-decoration: line-through;
+}
+
+.error {
+  min-height: 24px;
+  color: #b91c1c;
+}
+
+.note {
+  color: #4b5563;
+}
+
+[hidden] {
+  display: none !important;
+}
